@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap");
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="menuitems">
+        <a href="..//HTML/about.html">OM MIG</a>
+        <a href="../HTML/cv.html">CV</a>
+      </div>
+      <a href="../HTML/index.html" class="name">VIGGO KRISTENSEN</a>
+      <div class="menuitems">
+        <a href="../HTML/portfolio.html">PORTFOLIO</a>
+        <a href="../HTML/contact.html" class="current">KONTAKT</a>
+      </div>
+    </header>
+    <main>
+      <section class="contact-section">
+        <h2 class="section-title">Kontakta Mig</h2>
+        <p>Fyll i formuläret nedan för att skicka ett meddelande.</p>
+
+        <form class="contact-form">
+          <label for="name">Ditt Namn:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Din E-post:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="subject">Ämne:</label>
+          <input type="text" id="subject" name="subject" required />
+
+          <label for="message">Meddelande:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit">Skicka Meddelande</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy;2025 Viggo Kristensen</p>
+    </footer>
+  </body>
+</html>
