@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "title": "Frontend Developer",
+      "company": "ABC Företag",
+      "period": "2023–Nuvarande",
+      "tasks": [
+        "Utveckling av användargränssnitt och webbdesign.",
+        "Arbetade med HTML, CSS och JavaScript för att skapa responsiva sidor.",
+        "Optimera prestanda för att förbättra användarupplevelsen."
+      ]
+    },
+    {
+      "title": "Webbdesigner",
+      "company": "XYZ Företag",
+      "period": "2020–2023",
+      "tasks": [
+        "Designade och utvecklade webbplatser för olika kunder.",
+        "Fokuserade på UX/UI-design för att skapa intuitiva användargränssnitt.",
+        "Arbetade nära utvecklare och projektledare för att implementera designlösningar."
+      ]
+    }
+  ]
+}
